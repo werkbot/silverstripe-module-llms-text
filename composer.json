@@ -1,0 +1,33 @@
+{
+  "name": "werkbot/werkbot-llms-txt",
+  "description": "A SilverStripe module that provides a textarea field for llms.txt content.",
+  "type": "silverstripe-vendormodule",
+  "license": "MIT",
+  "homepage": "https://github.com/werkbot/silverstripe-module-llms-text",
+  "require-dev": {
+    "code-lts/doctum": "^5.5",
+    "phpunit/phpunit": "^9.5",
+    "erusev/parsedown": "^1.8",
+    "werkbot/werkbot-seeder": "^4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Werkbot\\LLMsText\\": "src/",
+      "Werkbot\\LLMsText\\Tests\\": "tests/php/"
+    }
+  },
+  "extra": {
+    "resources-dir": "_resources"
+  },
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true,
+      "silverstripe/vendor-plugin": true
+    },
+    "policy": {
+      "advisories": {
+        "block": false
+      }
+    }
+  }
+}

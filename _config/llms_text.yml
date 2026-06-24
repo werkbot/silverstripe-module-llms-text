@@ -1,0 +1,8 @@
+SilverStripe\SiteConfig\SiteConfig:
+  extensions:
+    - Werkbot\LLMsText\SiteConfigExtension
+
+SilverStripe\Control\Director:
+  rules:
+    'llms.txt': Werkbot\LLMsText\LLMsTextController
+

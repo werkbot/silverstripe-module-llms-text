@@ -1,0 +1,42 @@
+SilverStripe\SiteConfig\SiteConfig:
+  SiteConfig:
+    LLMsText: |
+      # Maple Street Coffee Roasters
+
+      > Maple Street Coffee Roasters is a specialty coffee roastery and cafe in Austin, Texas. We source single-origin beans directly from farmers, roast in small batches, and serve them in our two cafe locations.
+
+      ## Visit Us
+
+      - [Locations & Hours](https://maplestreetcoffee.com/locations): Two locations in Austin. Downtown (215 Maple St) open Mon-Fri 6am-6pm, Sat-Sun 7am-5pm. East Side (1402 E 7th St) open daily 7am-4pm.
+      - [Menu](https://maplestreetcoffee.com/menu): Espresso drinks, pour-over, cold brew, pastries from local bakery partners, and light breakfast/lunch items. Seasonal specials rotate monthly.
+      - [Contact](https://maplestreetcoffee.com/contact): Phone (512) 555-0187. Email hello@maplestreetcoffee.com. We respond within 24 hours.
+
+      ## Our Coffee
+
+      - [Current Offerings](https://maplestreetcoffee.com/coffee): Our rotating selection of single-origin coffees with tasting notes, origin information, and roast profiles. Typically 6-8 options available.
+      - [Subscription](https://maplestreetcoffee.com/subscribe): Monthly coffee subscription. Choose 12oz or 2lb bags, whole bean or ground. Free shipping. Cancel anytime. Starting at $18/month.
+      - [Online Shop](https://maplestreetcoffee.com/shop): Order coffee beans, brewing equipment, and merchandise. Free shipping on orders over $40.
+      - [Wholesale](https://maplestreetcoffee.com/wholesale): We supply coffee to restaurants, offices, and retailers in Central Texas. Minimum 5lb per order.
+
+      ## About
+
+      - [Our Story](https://maplestreetcoffee.com/about): Founded in 2018 by Maria Chen and James Okafor. Started as a farmers market stand, opened our first cafe in 2019. We visit origin farms annually and pay 40-60% above Fair Trade minimums.
+      - [Sourcing & Sustainability](https://maplestreetcoffee.com/sourcing): Direct trade relationships with farms in Ethiopia, Colombia, Guatemala, and Indonesia. Compostable packaging. Carbon-neutral shipping since 2023.
+      - [Roasting Process](https://maplestreetcoffee.com/roasting): We roast on a Loring S35 Kestrel in our East Side facility. Small batches of 30-50 lbs ensure consistency and freshness. All coffee ships within 48 hours of roasting.
+
+      ## Events & Community
+
+      - [Events](https://maplestreetcoffee.com/events): Public cuppings every Saturday 10am at our Downtown location. Monthly latte art workshops. Private event bookings available.
+      - [Brewing Guides](https://maplestreetcoffee.com/guides): Step-by-step guides for pour-over, French press, AeroPress, espresso, and cold brew. Includes recommended ratios and grind sizes.
+      - [Blog](https://maplestreetcoffee.com/blog): Coffee education, origin stories, recipe ideas, and community news.
+
+      ## Catering & Private Events
+
+      - [Catering](https://maplestreetcoffee.com/catering): Coffee catering for corporate events, weddings, and private parties in the Austin area. Full espresso bar or batch brew options.
+
+      ## Optional
+
+      - [Privacy Policy](https://maplestreetcoffee.com/privacy): How we handle customer data and online orders.
+      - [Careers](https://maplestreetcoffee.com/careers): Join our team. Current openings for baristas and roastery assistants.
+      - [Press](https://maplestreetcoffee.com/press): Featured in Austin Chronicle, Eater Austin, and Texas Monthly. Media kit available.
+
