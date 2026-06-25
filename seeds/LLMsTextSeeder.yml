@@ -1,5 +1,5 @@
 SilverStripe\SiteConfig\SiteConfig:
-  SiteConfig:
+  SiteConfig_With_LLMsText:
     LLMsText: |
       # Maple Street Coffee Roasters
 
