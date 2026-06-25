@@ -13,6 +13,10 @@ class SiteConfigExtension extends DataExtension
     'LLMsText' => 'Text',
   ];
 
+  /**
+   * Adds a textarea field for the llms.txt content to the CMS SiteConfig section.
+   * @param FieldList $fields The fields in the CMS SiteConfig section.
+   */
   public function updateCMSFields(FieldList $fields)
   {
     $fields->addFieldToTab(
