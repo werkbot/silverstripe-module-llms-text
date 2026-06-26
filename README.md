@@ -11,8 +11,13 @@ composer require werkbot/werkbot-llms-txt
 - You will need to run `/dev/build`
 
 ## Usage
-- There should now be a textarea field in your site's setting for the llms.txt content.
+- There should now be a textarea field in the site's setting for the llms.txt content.
 - /llms.txt will return this content.
+- Optionally add links to the `<head>`.
+```
+<link rel="llms" type="text/plain" href="$BaseHref/llms.txt">
+<link rel="llms-full" type="text/plain" href="$BaseHref/llms-full.txt">
+```
 
 ## Testing
 ```

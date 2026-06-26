@@ -5,4 +5,5 @@ SilverStripe\SiteConfig\SiteConfig:
 SilverStripe\Control\Director:
   rules:
     'llms.txt': Werkbot\LLMsText\LLMsTextController
+    'llms-full.txt': Werkbot\LLMsText\LLMsTextController
 
