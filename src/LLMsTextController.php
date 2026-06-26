@@ -17,7 +17,8 @@ class LLMsTextController extends Controller
    */
   public function index(HTTPRequest $request)
   {
-    return HTTPResponse::create(SiteConfig::current_site_config()?->LLMsText)
+    $property = $request->getURL() == 'llms-full.txt' ? 'LLMsFullText' : 'LLMsText';
+    return HTTPResponse::create(SiteConfig::current_site_config()?->$property)
       ->addHeader('Content-Type', 'text/plain');
   }
 
