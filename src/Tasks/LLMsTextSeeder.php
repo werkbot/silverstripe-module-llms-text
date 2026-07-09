@@ -5,9 +5,7 @@ namespace Werkbot\LLMsText\Tasks;
 use SilverStripe\SiteConfig\SiteConfig;
 use Werkbot\Seeder\Tasks\SeederBuildTask;
 
-if (!class_exists(SeederBuildTask::class)) {
-  return;
-}
+if (!class_exists(SeederBuildTask::class, false)) return;
 
 class LLMsTextSeeder extends SeederBuildTask
 {
