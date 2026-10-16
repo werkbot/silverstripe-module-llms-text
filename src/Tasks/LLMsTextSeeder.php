@@ -2,6 +2,9 @@
 
 namespace Werkbot\LLMsText\Tasks;
 
+use Symfony\Component\Console\Input\InputInterface;
+use SilverStripe\PolyExecution\PolyOutput;
+use Symfony\Component\Console\Command\Command;
 use SilverStripe\SiteConfig\SiteConfig;
 use Werkbot\Seeder\Tasks\SeederBuildTask;
 
@@ -9,8 +12,8 @@ if (!class_exists(SeederBuildTask::class, false)) return;
 
 class LLMsTextSeeder extends SeederBuildTask
 {
-  protected $title = 'Generate llms.txt example';
-  protected $description = 'Generate a llms.txt example using the current SiteConfig.';
+  protected string $title = 'Generate llms.txt example';
+  protected static string $description = 'Generate a llms.txt example using the current SiteConfig.';
   protected $enabled = true;
 
   protected $fixtureFileName = 'LLMsTextSeeder.yml';
@@ -26,14 +29,14 @@ class LLMsTextSeeder extends SeederBuildTask
     $this->extraSiteConfigIDs[] = $obj->ID;
   }
 
-  public function run($request)
+  protected function execute(InputInterface $input, PolyOutput $output): int
   {
-    parent::run($request);
-
-    foreach ($this->extraSiteConfigIDs as $extraSiteConfigID) {
-      $siteConfig = SiteConfig::get()->byID($extraSiteConfigID);
-      if ($siteConfig) $siteConfig->delete();
-    }
+      parent::run($request);
+      foreach ($this->extraSiteConfigIDs as $extraSiteConfigID) {
+        $siteConfig = SiteConfig::get()->byID($extraSiteConfigID);
+        if ($siteConfig) $siteConfig->delete();
+      }
+      return Command::SUCCESS;
   }
 
 }
