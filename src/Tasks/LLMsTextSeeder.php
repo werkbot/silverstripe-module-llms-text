@@ -29,9 +29,10 @@ class LLMsTextSeeder extends SeederBuildTask
     $this->extraSiteConfigIDs[] = $obj->ID;
   }
 
-  protected function execute(InputInterface $input, PolyOutput $output): int
+  #[Override]
+  public function execute(InputInterface $input, PolyOutput $output): int
   {
-      parent::run($request);
+      parent::execute($input, $output);
       foreach ($this->extraSiteConfigIDs as $extraSiteConfigID) {
         $siteConfig = SiteConfig::get()->byID($extraSiteConfigID);
         if ($siteConfig) $siteConfig->delete();
