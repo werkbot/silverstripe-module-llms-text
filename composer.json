@@ -11,7 +11,7 @@
     "code-lts/doctum": "^5.5",
     "phpunit/phpunit": "^11.5",
     "erusev/parsedown": "^1.8",
-    "werkbot/werkbot-seeder": "dev-release/5.0.0/ss6 as 5",
+    "werkbot/werkbot-seeder": "^5",
     "wernerkrauss/silverstripe-rector": "^1"
   },
   "autoload": {
