@@ -2,13 +2,13 @@
 
 namespace Werkbot\LLMsText;
 
+use SilverStripe\Core\Extension;
 use SilverStripe\Forms\FieldList;
 use SilverStripe\Forms\Tab;
 use SilverStripe\Forms\TabSet;
 use SilverStripe\Forms\TextareaField;
-use SilverStripe\ORM\DataExtension;
 
-class SiteConfigExtension extends DataExtension
+class SiteConfigExtension extends Extension
 {
   private static $db = [
     'LLMsText' => 'Text',
