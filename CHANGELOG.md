@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.0.0 - 2026-10-20
+## 🐛 Bugfixes
+- seeder
+
+
+
 ## 1.0.1 - 2026-07-09
 ## 🐛 Bugfixes
 - do not use autoloading for seeder class check
